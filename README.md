@@ -6,3 +6,6 @@
 
 ## 호가(Orderbook) 처리 서버 API 명세서
 [https://github.com/LeeWonchan4531/Websocket_Server/blob/main/Orderbook_Server.md](https://github.com/LeeWonchan4531/Websocket_Server/blob/main/Orderbook_Server.md)
+
+## 메시지 브로커 서버 API 명세서
+[https://github.com/LeeWonchan4531/Websocket_Server/blob/main/WebSocket_Message_Broker_Server.md](https://github.com/LeeWonchan4531/Websocket_Server/blob/main/WebSocket_Message_Broker_Server.md)
