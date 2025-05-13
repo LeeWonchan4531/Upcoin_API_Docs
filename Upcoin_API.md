@@ -4,7 +4,7 @@
 
 *   **Base URL:** `https://api.upcoin.kr`
 *   **인증 방식:**
-    *   대부분의 API는 사용자 인증을 위해 **세션 기반 인증**을 사용합니다.
+    *   사용자 인증을 위해 **세션 기반 인증**을 사용합니다.
     *   로그인 후 브라우저 개발자 도구 등에서 **`PHPSESSID` 쿠키 값**을 확인하여 요청 시 `Cookie` 헤더에 포함해야 합니다.
     *   예: `Cookie: PHPSESSID=YOUR_PHPSESSID_VALUE`
 *   **응답 형식:** JSON (`Content-Type: application/json; charset=utf-8`)
