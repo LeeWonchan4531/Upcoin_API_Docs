@@ -163,7 +163,7 @@
         ```json
         {
             "success": false,
-            "message": "로그인이 필요합니다.", // "error" 키 대신 "message"로 통일 가정
+            "error": "로그인이 필요합니다.",
             "data": null
         }
         ```
@@ -171,7 +171,7 @@
         ```json
         {
             "success": false,
-            "message": "잘못된 요청입니다.",
+            "error": "잘못된 요청입니다.",
             "data": null
         }
         ```
@@ -179,7 +179,7 @@
         ```json
         {
             "success": false,
-            "message": "주문을 찾을 수 없습니다.",
+            "error": "주문을 찾을 수 없습니다.",
             "data": null
         }
         ```
@@ -187,7 +187,7 @@
         ```json
         {
             "success": false,
-            "message": "주문 취소 처리 중 오류: 잔액 복구 실패", // 실제 오류 메시지
+            "error": "주문 취소 처리 중 오류: 잔액 복구 실패", // 실제 오류 메시지
             "data": null
         }
         ```
@@ -581,7 +581,7 @@
 *   **오류 응답:**
     *   **401 Unauthorized:** 인증 실패
         ```json
-        { // 이 API는 인증 실패 시 `response` 객체를 사용하지 않고 직접 echo하므로, 일관성을 위해 다음과 같이 가정
+        { 
             "success": false,
             "message": "Authentication required.",
             "data": [] // 또는 null
