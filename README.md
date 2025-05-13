@@ -1,5 +1,5 @@
 # Upcoin_API_Docs
-웹소켓 서버 관리 API 명세서
+Upcoin API 명세서
 
 ## Upcoin API 명세서 (클라이언트용)
 [https://github.com/LeeWonchan4531/Upcoin_API_Docs/blob/main/Upcoin_API.md](https://github.com/LeeWonchan4531/Upcoin_API_Docs/blob/main/Upcoin_API.md)
