@@ -9,3 +9,6 @@
 
 ## 메시지 브로커 서버 API 명세서
 [https://github.com/LeeWonchan4531/Websocket_Server/blob/main/WebSocket_Message_Broker_Server.md](https://github.com/LeeWonchan4531/Websocket_Server/blob/main/WebSocket_Message_Broker_Server.md)
+
+## Upcoin API 명세서
+[https://github.com/LeeWonchan4531/Websocket_Server/blob/main/Upcoin_API.md](https://github.com/LeeWonchan4531/Websocket_Server/blob/main/Upcoin_API.md)
