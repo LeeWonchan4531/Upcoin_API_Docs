@@ -550,7 +550,7 @@
 ### 8. 거래 내역 조회 (Get Transaction History)
 
 *   **설명:** 사용자의 과거 거래 내역을 페이지네이션하여 조회합니다.
-*   **URL:** `/transactions.php`
+*   **URL:** `/history.php`
 *   **Method:** `GET`
 *   **인증:** **필수** (`PHPSESSID` 쿠키 필요)
 *   **요청 파라미터 (Query String):**
