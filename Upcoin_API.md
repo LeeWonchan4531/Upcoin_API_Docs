@@ -594,7 +594,7 @@
         ```
 *   **cURL 예시:**
     ```bash
-    curl -X GET "https://api.upcoin.kr/transactions.php?offset=0&records_per_page=10" \
+    curl -X GET "https://api.upcoin.kr/history.php?offset=0&records_per_page=10" \
          -b "PHPSESSID=YOUR_PHPSESSID_VALUE" \
          -H "Accept: application/json"
     ```
