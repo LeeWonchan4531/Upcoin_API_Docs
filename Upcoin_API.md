@@ -563,14 +563,14 @@
     [
         {
             "asset_symbol": "BTC", // 코인 심볼
-            "transactionType": "매도", // 거래 유형 (매수/매도)
+            "transactionType": "sell", // 거래 유형 (sell/buy)
             "amount": 0.05, // 거래 수량
             "total": "4,311,360", // 거래 금액 (KRW, 포맷팅된 문자열)
             "transaction_time": "2023-10-27 10:30:05" // 거래 시간 (UTC+9)
         },
         {
             "asset_symbol": "ETH",
-            "transactionType": "매수",
+            "transactionType": "buy",
             "amount": 1.0,
             "total": "2,505,000",
             "transaction_time": "2023-10-26 15:20:10"
